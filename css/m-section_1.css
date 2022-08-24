@@ -1,0 +1,191 @@
+.mainExchContainer{
+    background-color: var(--off-white);
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainExchContainer__bitcoinImage{
+    width: 195px;
+    margin:  0px auto 30px auto;
+}
+.mainExchContainer__title{
+    min-width: 288px;
+    max-width: 390px;
+    min-height: 13rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.mainExchContainer__title h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warn-black);
+}
+.mainExchContainer__title p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--grey);
+}
+.mainExchContainer__sections{
+    width: 28rem;
+    height: 25rem;
+    overflow: auto;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+.mainExchContainer__sections::-webkit-scrollbar{
+    display: none;
+}
+.mainTableContainer{
+    width: 28rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}    
+ .mainTableContainer__title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+.mainTableContainer__title--monedas{
+    position: relative;
+    left: -40px;
+    color: var(--bitcoin-orange);
+}
+.mainTableContainer__title--comisiones{
+    color: var(--secondary-blue);
+    position: relative;
+    left: -30px;
+}
+.currencyTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.currencyTable--monedas{
+    position: relative;
+    right: -20px;
+}
+.currencyTable--comisiones{
+    position: relative;
+    left: -20px;
+}
+.currencyTable__container{
+    display: flex;
+    align-items: center;
+} 
+.currencyTable__table{
+    display: flex;
+    min-width: 196px;
+    height: 15.9rem;
+    border-radius: 8px;
+    background-color: var(--just-white);
+}
+.currencyTable__names{
+    min-width: 101px;
+    height: 16rem;      
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #B5B0AC;
+}
+.currencyTable__prices{
+    min-width: 95px;
+    height: 15.9rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 19px;
+    color: #757575;
+    text-align: center;
+}
+.currencyTable__prices span{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    background-position: center;
+}
+.currencyTable__prices .l{
+    background-image: url("../assets/icons/trending-down.svg");
+}
+.currencyTable__prices .h{
+    background-image: url("../assets/icons/trending-up.svg");
+}
+.currencyTable__table p{
+    height: 4rem;
+    padding: 1rem 12px;
+    border: 1px solid var(--off-white) ;
+    font-family: Inter, sans-serif;
+}
+.currencyTable__arrow{
+    align-self: center;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.currencyTable__arrow span{
+    width: 2.4rem;
+    height: 2.4rem;
+    display: inline-block;
+    background-image: url("../assets/icons/right-arrow.svg");  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.currencyTable__arrow--monedas{
+    order: 1;
+    margin-left: 10px;
+}
+.currencyTable__arrow--comisiones{
+    order: -1;
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+.mainTableContainer__valueSection{
+    width: 11.5rem;
+    height: 3.1rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+.mainTableContainer__valueSection--monedas{
+    background-color: var(--soft-orange);
+}
+.mainTableContainer__valueSection--comisiones{
+    background-color: var(--soft-blue);
+}
+.mainTableContainer__valueSection p{
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warn-black);
+}
+@media (min-width: 834px){
+    .mainExchContainer__sections{
+        width: 44rem;
+        overflow: none;
+    }
+    .mainTableContainer{
+        width: 22rem;
+        align-items: flex-start;
+    }
+    .mainTableContainer__title{
+        margin-left: 10px;
+        position: static;
+    }
+    .currencyTable{
+        position: static;
+    }
+    .currencyTable__arrow{
+        display: none;
+    }
+
+}

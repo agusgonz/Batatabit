@@ -7,6 +7,7 @@
     <title>Batatabit</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/m-section_1.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,74 @@
         </div>
     </header>
     <main>
-        <section></section>
+        <section class="mainExchContainer">
+            <figure class="mainExchContainer__bitcoinImage">
+                <img src="./assets/img/Bitcoin.svg" alt="Bitcoin Image">
+            </figure>
+            <div class="mainExchContainer__title">
+                <h2>Visibilizamos todas las tasas de cambio.</h2> 
+                <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+            </div>
+            <div class="mainExchContainer__sections">
+                <section class="mainTableContainer" id="table1"> 
+                    <h3 class="mainTableContainer__title mainTableContainer__title--monedas">Monedas</h3>
+                    <div class="currencyTable currencyTable--monedas">
+                        <div class="currencyTable__container">
+                            <div class="currencyTable__table">
+                                <div class="currencyTable__names">
+                                    <p>Bitcoin</p>
+                                    <p>Ethereum</p>
+                                    <p>Ripple</p>
+                                    <p>Stellar</p>
+                                </div>
+                                <div class="currencyTable__prices">
+                                    <p>$ 1.96 <span class="l"></span></p>
+                                    <p>$ 0.07 <span class="h"></span></p>
+                                    <p>$ 2.15 <span class="l"></span></p>
+                                    <p>$ 4.96 <span class="l"></span></p>
+                                </div>
+                            </div> 
+                            </table>
+                            <a class="currencyTable__arrow currencyTable__arrow--monedas" href="#table2">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mainTableContainer__valueSection mainTableContainer__valueSection--monedas">
+                        <p>Valores en</p>
+                        <p><b>$ USD</b></p>
+                    </div>
+                </section>
+                <section class="mainTableContainer" id="table2"> 
+                    <h3 class="mainTableContainer__title mainTableContainer__title--comisiones">Comisiones</h3>
+                    <div class="currencyTable currencyTable--comisiones">
+                        <div class="currencyTable__container">
+                            <div class="currencyTable__table">
+                                <div class="currencyTable__names">
+                                    <p>Bitrade</p>
+                                    <p>Bitpreco</p>
+                                    <p>Novadax</p>
+                                    <p>Coinext</p>
+                                </div>
+                                <div class="currencyTable__prices">
+                                    <p>$ 12.96</p>
+                                    <p>$ 13.06</p>
+                                    <p>$ 13.15</p>
+                                    <p>$ 14.96</p>
+                                </div>
+                            </div>
+                            <a class="currencyTable__arrow currencyTable__arrow--comisiones" href="#table1">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mainTableContainer__valueSection mainTableContainer__valueSection--comisiones">
+                        <p>Valores en</p>
+                        <p><b>$ USD</b></p>
+                    </div>
+                </section>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
