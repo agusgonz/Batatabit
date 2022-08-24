@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batatabit</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/m-section_3.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,44 @@
     <main>
         <section></section>
         <section></section>
-        <section></section>
+        <section>
+            <div class="comodinContent">
+                <p class="comodinContent__text">Conócelo hoy.</p>
+            </div> 
+            <div class="mainPlansContainer" id="plans">
+                <div class="mainPlansContainer__titleContainer">
+                    <h2 class="mainPlansContainer__title">Escoge el plan que mejor se ajuste a ti.</h2>
+                    <p class="mainPlansContainer__text">Cualquier plan te da acceso completo a nuestra plataforma.</p>
+                </div>
+                <div class="mainPlansContainer__sectionsContainer">
+                    <div class="mainPlansContainer__section mainPlansContainer__section--mensual" id="Mensual">
+                        <p class="mainPlansContainer__section__mainText">Pago Mensual</p>
+                        <p class="mainPlansContainer__section__price mainPlansContainer__section__price--noRecommended">5</p>
+                        <p class="mainPlansContainer__section_infoText">*Plan básico para mantenerte informado.</p>
+                        <a class="mainPlansContainer__section_button mainPlansContainer__section_button--noRecommended" href="#Mensual"><p>Escoger este</p><span></span></a>
+                    </div>
+                    <div class="mainPlansContainer__section--anual" id="Anual">
+                        <div class="mainPlansContainer__section__recommended"><p>Recomendado</p></div>
+                        <div class="mainPlansContainer__section mainPlansContainer__section--betterPosition">
+                            <p class="mainPlansContainer__section__mainText">Pago Anual</p>
+                            <p class="mainPlansContainer__section__price mainPlansContainer__section__price--recommended">49</p>
+                            <p class="mainPlansContainer__section_infoText">*Ahorras $129 comparado al plan mensual.</p>
+                            <a class="mainPlansContainer__section_button mainPlansContainer__section_button--recommended" href="#Anual"><p>Escoger este</p><span></span></a>
+                        </div>
+                    </div>
+                    <div class="mainPlansContainer__section mainPlansContainer__section--porvida" id="porVida">
+                        <p class="mainPlansContainer__section__mainText">Acceso de por vida</p>
+                        <p class="mainPlansContainer__section__price mainPlansContainer__section__price--noRecommended">99</p>
+                        <p class="mainPlansContainer__section_infoText">*Ahorras $999+ comparado al plan anual</p>
+                        <a class="mainPlansContainer__section_button mainPlansContainer__section_button--noRecommended" href="#porVida"><p>Escoger este</p><span></span></a>                
+                    </div>
+                    <div class="mainPlansContainer__botonesContainer">
+                        <a href="#Mensual" class="mainPlansContainer__botones mainPlansContainer__botones--primero"><span></span></a>
+                        <a href="#porVida" class="mainPlansContainer__botones mainPlansContainer__botones--segundo"><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section></section>
     </main>
     <footer>
