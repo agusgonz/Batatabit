@@ -210,25 +210,3 @@
         display: none;
     }
 }
-@media(min-width: 834px){
-    .mainPlansContainer__titleContainer{
-        max-width: 46rem;
-        height: 20rem;
-    }
-    .mainPlansContainer__title{
-        font-size: 4rem;
-        line-height: 4.2rem;
-    }
-    .mainPlansContainer__text{
-        font-size: 2rem;
-        line-height: 2.4rem;
-    }
-    .comodinContent{
-        background-image: url(../assets/img/bitcoinbaby-2.png);
-    }
-    .comodinContent__text{
-        font-size: 4rem;
-        line-height: 4.2rem;
-        padding-top: 15.5rem;
-    }
-}

@@ -62,21 +62,3 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-@media(min-width:834px){
-    .mainFAQContainer__titleContainer{
-        font-size: 4rem;
-        line-height: 4.2rem;
-        margin: 5rem 5rem;
-    }
-    .mainFAQContainer__sectionsContainer{
-        max-width: 40rem;
-    }
-    .mainFAQContainer__question{
-        font-size: 2rem;
-        line-height: 2.4rem;
-    }
-    .mainFAQContainer__answer{
-        font-size: 1.6rem;
-        line-height: 2rem;
-    }
-}

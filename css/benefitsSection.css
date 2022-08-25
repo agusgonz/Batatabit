@@ -54,29 +54,3 @@
     flex-direction: column;
     justify-content: space-between;
 }
-@media (min-width: 834px) {
-    .mainBenefContainer__titleContainer{
-        width: 46rem;
-        height: 20rem;
-    }
-    .mainBenefContainer__sectionContainer{
-        width: 800px;
-        min-height: 40rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .mainBenefContainer__title--big{
-        font-size: 4rem;
-        line-height: 4.2rem;
-    }
-    .mainBenefContainer__text--bigger{
-        font-size: 2rem;
-        line-height: 2.4rem;
-    }
-    .mainBenefContainer__logoImage{
-        top: -20px;
-    }
-    .mainBenefContainer__logoImage img{
-        width: 70px;  
-    } 
-}

@@ -168,7 +168,7 @@
     line-height: 1.5rem;
     color: var(--warn-black);
 }
-@media (min-width: 834px){
+/* @media (min-width: 834px){
     .mainExchContainer__sections{
         width: 44rem;
         overflow: none;
@@ -188,4 +188,4 @@
         display: none;
     }
 
-}
+} */

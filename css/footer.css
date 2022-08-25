@@ -20,17 +20,3 @@
 .mainFooterContainer__logo{
     width: 6.3rem;
 }
-@media(min-width: 834px){
-    .mainFooterContainer{
-        height: 23rem;
-    }
-    .mainFooterContainer__logo{
-        width: 16.7rem;
-        height: 11.1rem;
-    }
-    .mainFooterContainer__moreContainer a{
-        font-size: 2rem;
-        line-height: 2.4rem;
-        padding: 1rem;
-    }
-}
