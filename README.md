@@ -8,4 +8,4 @@
 
 >[Page Link](https://agusgonz.github.io/Batatabit/ "Page Link")
 
->[Figma Link](https://agusgonz.github.io/Batatabit/ "Figma Link")
+>[Figma Link](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594 "Figma Link")
